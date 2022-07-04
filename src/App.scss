@@ -1,0 +1,39 @@
+$bg-color-dk: #1a1a1a;
+$bg-color-lt: #3B3B3B;
+$color-primary: #00F5F3;
+$color-cta: #FFF021;
+$color-text: #fafafa;
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.App {
+  @include flexColumn();
+  min-height: 100vh;
+
+  color: $color-text;
+  background-color: $bg-color-dk;
+  background-image: linear-gradient(135deg, $bg-color-dk 5%, $bg-color-lt 25%, $bg-color-dk 80%);
+
+  a {
+    color: $color-cta;
+  }
+
+  header {
+    @include flexColumn();
+
+    //font-size: calc(10px + 2vmin);
+    
+    .App-logo {
+      height: 40vw;
+      pointer-events: none;
+    }
+  }
+  main {
+    flex: 1;
+  }
+}
