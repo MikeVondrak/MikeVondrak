@@ -26,6 +26,7 @@ function App() {
   const [buttonText, setButtonText] = useState('Open');
   const segments = [frameStart, frameEnd];
 
+
   frames.set('openStart', 0);
   frames.set('openEnd', 42);
   frames.set('hoverStart', 60);
