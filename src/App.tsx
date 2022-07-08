@@ -23,7 +23,6 @@ function App() {
   const [loop, setLoop] = useState(false);
   const [direction, setDirection] = useState(1 as PlayerDirection);
   const [frames, setFrames] = useState(new Map<string, number>());
-  const [buttonText, setButtonText] = useState('Open');
   const segments = [frameStart, frameEnd];
 
 
@@ -40,12 +39,6 @@ function App() {
 
     }
   }
-
-  const play = () => {
-    console.log('PLAY');
-    
-  };
-
 
   return (
     <div className="App">
@@ -67,18 +60,6 @@ function App() {
             </div>
           </div>
           <div className="animated-link">
-            <div className="portfolio-animation">
-              <LottieContainer
-                id={'PortfolioAnimation'}
-                animationData={portfolioAnimationData}
-                introStart={0}
-                introEnd={42}
-                loopStart={60}
-                loopEnd={180}
-              />
-            </div>
-          </div>
-          <div className="animated-link">
             <div className="about-animation">
               <LottieContainer
                 id={'AboutMeAnimation'}
@@ -86,6 +67,18 @@ function App() {
                 introStart={0}
                 introEnd={46}
                 loopStart={47}
+                loopEnd={180}
+              />
+            </div>
+          </div>
+          <div className="animated-link">
+            <div className="portfolio-animation">
+              <LottieContainer
+                id={'PortfolioAnimation'}
+                animationData={portfolioAnimationData}
+                introStart={0}
+                introEnd={42}
+                loopStart={60}
                 loopEnd={180}
               />
             </div>

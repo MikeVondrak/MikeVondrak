@@ -22,12 +22,20 @@ $color-text: #fafafa;
   a {
     color: $color-cta;
   }
+  button {
+    padding: 0.25rem 0.5rem;
+    border: 3px solid $color-primary;
+    border-radius: 0.5rem;
+    color: $color-primary;
+    background-color: transparent;
+  }
 
   header {
     @include flexColumn();
+    margin: 2vw 0;
     
     .App-logo {
-      height: 40vw;
+      height: 20vw;
       pointer-events: none;
     }
   }
@@ -37,7 +45,8 @@ $color-text: #fafafa;
     .animated-links-container {
       display: flex;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-end;
+      gap: 2vw;
       > * {        
         flex: 1;
 
