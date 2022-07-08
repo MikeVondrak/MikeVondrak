@@ -4,13 +4,16 @@ import React, { LegacyRef, MouseEventHandler, useRef, useState } from 'react';
 //import Lottie, { EventListener, LottieProps, Options } from 'react-lottie';
 import { Player, PlayerDirection, Controls, PlayerEvent } from '@lottiefiles/react-lottie-player';
 //import Lottie from 'react-lottie-player';
-import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
+//import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
 
 
 
 import './App.scss';
 import logo from './assets/images/mv_logo.svg';
-import emailAnimation from './assets/lottie/email_segments.sifz.json'
+import emailAnimationData from './assets/lottie/email_segments.sifz.json';
+import portfolioAnimationData from './assets/lottie/portfolio_segments.sifz.json';
+import aboutMeAnimationData from './assets/lottie/about_segments.sifz.json';
+import LottieContainer from './components/Lottie-Container/Lottie-Container';
 
 function App() {
   const [pause, setPause] = useState(false);
@@ -37,28 +40,11 @@ function App() {
     }
   }
 
-  const playLottie = (ref: React.RefObject<Player>) => {
-    console.log('PLAY: ', ref?.current?.props?.speed, ref?.current?.props?.direction);
-    if (ref && ref.current) {
-      ref.current.setPlayerDirection(direction);
-      ref.current.setSeeker(direction > 0 ? 0 : 42, true);
-      ref.current.play();
-    }
-
-    setButtonText(direction < 0 ? 'Open' : 'Close');
-  };
-
-  const handleEvent = (event: PlayerEvent, ref: React.RefObject<Player>) => {
-    if (event !== 'frame') {
-      console.log({event});
-    }
-    switch(event) {
-      case PlayerEvent.Complete: completeCallback(ref); break;
-    }
+  const play = () => {
+    console.log('PLAY');
     
   };
 
-  const playerRef: React.RefObject<Player> = React.createRef();
 
   return (
     <div className="App">
@@ -66,33 +52,46 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <main>
-        <div className="animated-link-container">
-        
-          {/* <Player
-            ref={playerRef}
-            src={emailAnimation}
-            renderer
-            keepLastFrame={true}
-            style={{ width: '120px', height: '148px' }}
-            direction={direction}
-            speed={1}
-            loop={loop}
-            onEvent={(event) => handleEvent(event, playerRef)}
-          /> */}
-          
-          <Lottie 
-            animationData={emailAnimation}
-            play
-            loop
-            style={{ width: '120px', height: '148px' }}
-          />
-
+        <div className="animated-links-container">
+          <div className="animated-link">
+            <div className="email-animation">
+              <LottieContainer
+                id={'EmailAnimation'}
+                animationData={emailAnimationData}
+                introStart={0}
+                introEnd={42}
+                loopStart={60}
+                loopEnd={180}
+              />
+            </div>
+          </div>
+          <div className="animated-link">
+            <div className="portfolio-animation">
+              <LottieContainer
+                id={'PortfolioAnimation'}
+                animationData={portfolioAnimationData}
+                introStart={0}
+                introEnd={42}
+                loopStart={60}
+                loopEnd={180}
+              />
+            </div>
+          </div>
+          <div className="animated-link">
+            <div className="about-animation">
+              <LottieContainer
+                id={'AboutMeAnimation'}
+                animationData={aboutMeAnimationData}
+                introStart={0}
+                introEnd={46}
+                loopStart={47}
+                loopEnd={180}
+              />
+            </div>
+          </div>
         </div>
-        
-        <button onClick={(event) => playLottie(playerRef) }>{buttonText}</button>
-      </main>
+      </main>      
       <footer>
-
       </footer>
     </div>
   );
