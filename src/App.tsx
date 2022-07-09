@@ -53,8 +53,8 @@ function App() {
                 id={'EmailAnimation'}
                 animationData={emailAnimationData}
                 introStart={0}
-                introEnd={42}
-                loopStart={60}
+                introEnd={90}
+                loopStart={90}
                 loopEnd={180}
               />
             </div>

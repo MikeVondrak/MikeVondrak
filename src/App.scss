@@ -17,7 +17,31 @@ $color-text: #fafafa;
 
   color: $color-text;
   background-color: $bg-color-dk;
-  background-image: linear-gradient(135deg, $bg-color-dk 5%, $bg-color-lt 25%, $bg-color-dk 80%);
+  $bg-color1: rgba(30, 30, 30, 1); // multiple gradient stops to attempt to get FF not to look banded
+  $bg-color1a: rgba(40, 40, 40, 1);
+  $bg-color2: rgba(50, 50, 50, 1);
+  // $g: transparent;
+  // $steps: 10;
+  // @for $i from 1 to $steps {
+  //   $g: append($g, fade-out($bg-color, 1 / $i) percentage($i / $steps), comma);
+  //   $g: append($g, fade-out($bg-color, 1 / $i) percentage(($i + 0.6) / $steps), comma);
+  // }
+  // $g: append($g, $bg-color);
+  // background: linear-gradient(to bottom, $g);
+  
+  background-image: linear-gradient(
+    135deg, 
+    $bg-color1 0%,
+    $bg-color1a 15%,
+    $bg-color2 35%,
+    $bg-color1a 55%,
+    $bg-color1 100%
+  );
+  
+  
+  
+  //background-image: -moz-linear-gradient(-75deg, $bg-color-dk 5%, $bg-color-lt 25%, $bg-color-dk 80%);
+  //background-attachment: fixed;
 
   a {
     color: $color-cta;

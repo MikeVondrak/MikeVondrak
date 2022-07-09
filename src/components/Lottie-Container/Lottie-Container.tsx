@@ -30,7 +30,7 @@ function LottieContainer(config: LottieContainerConfig) {
   const [aniDir, setAniDir] = useState(1 as LottieAnimationDirection);
   const [frames, setFrames] = useState(new Map<string, number>());
   const [aniRef, setAniRef] = useState<AnimationItem>();
-  const [buttonText, setButtonText] = useState('Open');
+  const [buttonText, setButtonText] = useState('Start');
 
   const [updateState, setUpdateState] = useState(false);
 
@@ -89,7 +89,7 @@ function LottieContainer(config: LottieContainerConfig) {
       switch (animationState) {
         case LottieAnimationState.CLOSED: 
           console.log('+++ CLOSED');
-          setButtonText('Open');
+          setButtonText('Start');
           break;
         case LottieAnimationState.CLOSING: 
           console.log('+++ CLOSING');
@@ -101,7 +101,7 @@ function LottieContainer(config: LottieContainerConfig) {
           console.log('+++ HOVERING');
           aniRef.loop = true;
           aniRef.playSegments(hoverSegs, false);
-          setButtonText('Close');
+          setButtonText('Stop');
           break;
         case LottieAnimationState.OPENING: 
           console.log('+++ OPENING');
@@ -214,7 +214,7 @@ function LottieContainer(config: LottieContainerConfig) {
   return (
     <div className='root'>
       <div ref={lottieAnimationDivRef} className='lottie-container'>
-        Lottie Container - if you're seeing this your browser might not support Lottie player
+        If you're seeing this your browser might not support Lottie
       </div>
       <button onClick={() => play()}>{buttonText}</button>
     </div>
