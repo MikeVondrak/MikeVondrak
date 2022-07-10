@@ -4,11 +4,29 @@ $color-primary: #00F5F3;
 $color-cta: #FFF021;
 $color-text: #fafafa;
 
+$breakpoints: (
+  "min": 320,
+  "xs": 400,
+  "sm": 600,
+  "md": 840,
+  "lg": 1024,
+  "xl": 1280,
+  "ws": 1440,
+  "hd": 1920,
+);
+
 @mixin flexColumn {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;  
+}
+
+@mixin media-breakpoint-gte($bp) {
+  $minWidth: map-get($breakpoints, $bp) + "px";
+  @media (min-width: $minWidth) {
+    @content;
+  }
 }
 
 .App {
@@ -59,7 +77,10 @@ $color-text: #fafafa;
     margin: 2vw 0;
     
     .App-logo {
-      height: 20vw;
+      width: 50vw;
+      @include media-breakpoint-gte(sm) {
+        width: 30vw;
+      }
       pointer-events: none;
     }
   }
@@ -68,20 +89,59 @@ $color-text: #fafafa;
 
     .animated-links-container {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
+      @include media-breakpoint-gte(sm) {
+        flex-direction: row;        
+      }
       align-items: flex-end;
       gap: 2vw;
       > * {        
         flex: 1;
-
+        $item-width: 55vw;
+        $item-width-sm: 25vw;
+        $item-width-md: 20vw;
+        $item-width-lg: 15vw;
         .email-animation {
-          width: 200px;
+          width: $item-width;
         }
         .portfolio-animation {
-          width: 200px;
+          width: $item-width;
         }
         .about-animation {
-          width: 220px;
+          width: $item-width;
+        }
+        @include media-breakpoint-gte(sm) {
+          .email-animation {
+            width: $item-width-sm;
+          }
+          .portfolio-animation {
+            width: $item-width-sm;
+          }
+          .about-animation {
+            width: $item-width-sm;
+          }
+        }
+        @include media-breakpoint-gte(md) {
+          .email-animation {
+            width: $item-width-md;
+          }
+          .portfolio-animation {
+            width: $item-width-md;
+          }
+          .about-animation {
+            width: $item-width-md;
+          }
+        }
+        @include media-breakpoint-gte(lg) {
+          .email-animation {
+            width: $item-width-lg;
+          }
+          .portfolio-animation {
+            width: $item-width-lg;
+          }
+          .about-animation {
+            width: $item-width-lg;
+          }
         }
       }
     }
