@@ -3,6 +3,7 @@
   
   .lottie-container {
     .no-lottie-support {
+      display: none; // TODO: why doesn't the static content get replaced properly in prod
       padding: 0.5rem 1rem 1rem;
       border-radius: 1rem;
       color: #f45;
