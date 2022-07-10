@@ -77,8 +77,8 @@ function App() {
                 id={'PortfolioAnimation'}
                 animationData={portfolioAnimationData}
                 introStart={0}
-                introEnd={42}
-                loopStart={60}
+                introEnd={62}
+                loopStart={62}
                 loopEnd={180}
               />
             </div>

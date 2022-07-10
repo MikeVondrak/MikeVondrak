@@ -114,68 +114,21 @@ function LottieContainer(config: LottieContainerConfig) {
   }, [animationState, updateState]);
 
 
-
-
+  /**
+   * Callback for Lottie animation completed event
+   * @param aniRef Lottie player reference
+   * @param state new state of Lottie player
+   */
   const handleEventComplete = (aniRef: AnimationItem, state: LottieAnimationState) => {    
-    // aniRef.setDirection(aniDir);
-
     console.log('COMPLETE ' + config.id, {state}, {animationState}, {animationState2}, {animationPhase}, {animationDirection}, {animationLoop});
-
     setUpdateState(!updateState);
-
-
-
-
-
-    // if (animationState === LottieAnimationState.CLOSED) {
-    //   console.log('GOTO HOVERING');
-    //   // when opening animation is complete begin looping the hover animation
-    //   animationState2 = LottieAnimationState.HOVERING;
-    //   setAnimationState(LottieAnimationState.HOVERING);
-    //   animationLoop = true;
-    //   aniRef.loop = false;      
-    // } else {
-    //   console.log('GOTO CLOSED');
-    //   aniRef.loop = true;
-    // }
-
-
-
-
-
-    //if (aniDir === LottieAnimationDirection.FORWARD) {
-    // if (animationDirection === LottieAnimationDirection.FORWARD) {
-    //   setLoop(true);
-    //   setAniDir(LottieAnimationDirection.REVERSE);
-
-      
-    //   animationDirection = LottieAnimationDirection.REVERSE;
-    //   animationLoop = true;
-
-
-    //   aniRef?.playSegments(closeSegs);
-    //   console.log('HOVER', {aniDir}, {loop});
-    // } else {
-    //   setLoop(false);
-    //   setAniDir(LottieAnimationDirection.FORWARD);      
-
-
-    //   animationDirection = LottieAnimationDirection.FORWARD;
-    //   animationLoop = false;
-
-
-    //   aniRef.playSegments(hoverSegs);
-    //   aniRef.stop();
-    //   console.log('RESET', {aniDir}, {loop});
-    // }
   }
+
   const handleEventLoopComplete = (aniRef: AnimationItem) => {
-    console.log('LOOP COMPLETE ' + config.id);
+    //console.log('LOOP COMPLETE ' + config.id);
   }
   const handleEventSegmentStart = (aniRef: AnimationItem) => {
-    // const newDir = aniDir * -1;
-    // setAniDir(newDir);
-    // console.log('SEGMENT START ' + config.id, {aniDir}, {newDir});
+    //console.log('SEGMENT START ' + config.id);
   }
 
   /**
@@ -185,10 +138,7 @@ function LottieContainer(config: LottieContainerConfig) {
    * - Prepares state for first open animation
    * @returns function to destroy Lottie animation (to prevent multiple instances on-screen)
    */ 
-  useEffect(() => {
-    // setFrameStart(config.introStart);
-    // setFrameEnd(config.introEnd);
-    
+  useEffect(() => {    
     if (!!lottieAnimationDivRef.current) {
       console.log('INITIALIZING LOTTIE');
       const lottieAnimation = lottie.loadAnimation({
@@ -214,7 +164,8 @@ function LottieContainer(config: LottieContainerConfig) {
   return (
     <div className='root'>
       <div ref={lottieAnimationDivRef} className='lottie-container'>
-        If you're seeing this your browser might not support Lottie
+        {/* TODO - why is this showing up in prod build but not local? Hiding for now */}
+        <div className='no-lottie-support'>If you're seeing this your browser might not support Lottie</div>
       </div>
       <button onClick={() => play()}>{buttonText}</button>
     </div>
