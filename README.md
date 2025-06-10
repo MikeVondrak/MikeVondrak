@@ -16,7 +16,7 @@ My resume and portfolio created as an Angular 17 website
 <br/>
 
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
-![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
+![sbs_co_logo_100](https://github.com/user-attachments/assets/7a1906db-947c-4914-933f-8842d4949b4f)
 
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
@@ -29,6 +29,7 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 <br/>
 
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
+![dive_inn_logo_100](https://github.com/user-attachments/assets/f618625f-f153-48ce-a3aa-7350646a7657)
 
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
 * Designed a fully responsive UI and produced all assets (exept for the main logo)
@@ -38,8 +39,9 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 <br/>
 <br/>
 
-![image](https://github.com/user-attachments/assets/b4efeeb4-cfd8-43b8-897a-f5eccab9341c)
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
+![dayna_safferstein_logo_100](https://github.com/user-attachments/assets/242dbf7f-426f-4418-9d95-a2aa5d203d12)
+
 
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
@@ -47,8 +49,8 @@ A Squarespace portfolio site for a client in graphic design
 <br/>
 <br/>
 
-![image](https://github.com/user-attachments/assets/dbaa20a3-4caa-47d2-9cc0-70bdfbad6cf4)
 ## pointingpokeronline.com (site decommissioned)
+![pointing-poker-logo-100](https://github.com/user-attachments/assets/d39207c7-a1e0-4438-b6e4-cc28d09eae9b)
 
 One of my favorite projects I've done, unfortunately no longer online, this was a tool for estimating software complexity (commonly called refinement or "pointing")
 * Built in Angular 13, utilizing firebase and GraphQL for synchronizing data
