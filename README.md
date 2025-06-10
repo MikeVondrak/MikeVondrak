@@ -9,6 +9,7 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
 ![mv_logo_curve](https://github.com/user-attachments/assets/e5984a68-7619-4a27-ae0a-827e31c6ff0b)
+
 My resume and portfolio created as an Angular 17 website
  
  
@@ -26,8 +27,6 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 
 
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
-
-
 
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
 * Designed a fully responsive UI and produced all assets (exept for the main logo)
