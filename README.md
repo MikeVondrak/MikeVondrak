@@ -1,6 +1,8 @@
 
-# About Me
-![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)
+<div style="width: 100%">
+  # About Me
+  ![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)
+</div>
 
 I am a life-long coder, creator, and technology enthusiast. I specialize in developing unique concepts, largely for the web, that explore how to use creativity in the digital space.
 
@@ -12,6 +14,7 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
 My resume and portfolio created as an Angular 17 website
 
+| | |
 |:-----------|---------:|
 | [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) | ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a) |
 
