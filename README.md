@@ -14,6 +14,7 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 My resume and portfolio created as an Angular 17 website
 <br/>
 <br/>
+
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
 ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
 
@@ -26,6 +27,7 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
 <br/>
 <br/>
+
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
 
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
@@ -35,6 +37,7 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 * Populates data for events and specials from an Amazon S3 bucket
 <br/>
 <br/>
+
 ![image](https://github.com/user-attachments/assets/b4efeeb4-cfd8-43b8-897a-f5eccab9341c)
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
 
@@ -43,6 +46,7 @@ A Squarespace portfolio site for a client in graphic design
 * Created a JavaScript based system that can configure the site to display tailored versions of the content to target different job types
 <br/>
 <br/>
+
 ![image](https://github.com/user-attachments/assets/dbaa20a3-4caa-47d2-9cc0-70bdfbad6cf4)
 ## pointingpokeronline.com (site decommissioned)
 
