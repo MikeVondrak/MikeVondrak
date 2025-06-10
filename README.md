@@ -6,7 +6,8 @@ I love programming, UI/UX, content creation and creative problem solving. I enjo
 Re: A naturally curious, quality-oriented, detailed and dynamic developer of ideas for the digital domain.
 
 # Repositories
-
+<br/>
+<br/>
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
 ![mv_logo_curve](https://github.com/user-attachments/assets/e5984a68-7619-4a27-ae0a-827e31c6ff0b)
 
@@ -23,8 +24,8 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 * 7.5mb total size for the site, with 6.9mb from assets
 
 ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
-
-
+<br/>
+<br/>
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
 
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
@@ -32,16 +33,16 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 * Enterprise architecture utilizing a shared library, client, and server projects
 * Node backend with a custom emailer to support reservations
 * Populates data for events and specials from an Amazon S3 bucket
-
-
+<br/>
+<br/>
 ![image](https://github.com/user-attachments/assets/b4efeeb4-cfd8-43b8-897a-f5eccab9341c)
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
 
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
 * Created a JavaScript based system that can configure the site to display tailored versions of the content to target different job types
-
-
+<br/>
+<br/>
 ![image](https://github.com/user-attachments/assets/dbaa20a3-4caa-47d2-9cc0-70bdfbad6cf4)
 ## pointingpokeronline.com (site decommissioned)
 
