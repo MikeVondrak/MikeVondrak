@@ -65,7 +65,7 @@ One of my favorite projects I've done, unfortunately no longer online, this was 
 
 **Organizer Voting and Reveal Animation**
 * User sign-in and animations
-* Ticket (issue) selection
+* Ticket (e.g Jira issue) creation and selection
 * Voting animations
 * Reveal when all votes are cast
 ![Pointing-Poker_Organizer-Demo](https://github.com/user-attachments/assets/81fb4871-e88c-41d6-8ef6-3157410651d6)
