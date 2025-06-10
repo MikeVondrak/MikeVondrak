@@ -1,7 +1,7 @@
 
-<div style="width: 100%">
-  # About Me
-  ![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)
+<div style="width: 100%; display: flex; justify-content: space-between">
+  <span># About Me</span>
+  <span>![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)</span>
 </div>
 
 I am a life-long coder, creator, and technology enthusiast. I specialize in developing unique concepts, largely for the web, that explore how to use creativity in the digital space.
