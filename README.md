@@ -10,6 +10,8 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 My resume and portfolio created as an Angular 17 website
 
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware)
+![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
+
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
 * A gulp file is used to create a Single Page App from "component" html templates
@@ -19,6 +21,8 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
 
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
+![image](https://github.com/user-attachments/assets/bc42e7bd-9f50-403d-acf4-85c7294f57a9)
+
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
 * Designed a fully responsive UI and produced all assets (exept for the main logo)
 * Enterprise architecture utilizing a shared library, client, and server projects
@@ -26,11 +30,15 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 * Populates data for events and specials from an Amazon S3 bucket
 
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
+![image](https://github.com/user-attachments/assets/b4efeeb4-cfd8-43b8-897a-f5eccab9341c)
+
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
 * Created a JavaScript based system that can configure the site to display tailored versions of the content to target different job types
 
 ## pointingpokeronline.com (site decommissioned)
+![image](https://github.com/user-attachments/assets/dbaa20a3-4caa-47d2-9cc0-70bdfbad6cf4)
+
 One of my favorite projects I've done, unfortunately no longer online, this was a tool for estimating software complexity (commonly called refinement or "pointing")
 * Built in Angular 13, utilizing firebase and GraphQL for synchronizing data
 * I developed the UI, animations, and graphical assets
