@@ -12,6 +12,7 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 My resume and portfolio created as an Angular 17 website
 
 
+
 ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
 
