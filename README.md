@@ -1,9 +1,4 @@
-
-<div style="display: flex; justify-content: space-between">
-  <span># About Me</span>
-  <span>![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)</span>
-</div>
-
+# About Me
 I am a life-long coder, creator, and technology enthusiast. I specialize in developing unique concepts, largely for the web, that explore how to use creativity in the digital space.
 
 I love design, UI/UX, coding, content creation and creative problem solving. I enjoy mentoring and sharing what I have learned. I can also handle any part of the web development process, from designs to databases to deployment.
@@ -12,11 +7,11 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 
 # Repositories
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
+![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)
 My resume and portfolio created as an Angular 17 website
 
-| | |
-|:-----------|---------:|
-| [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) | ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a) |
+## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
+![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
 
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
@@ -27,7 +22,7 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
 
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
-![image](https://github.com/user-attachments/assets/bc42e7bd-9f50-403d-acf4-85c7294f57a9)
+![image](https://github.com/user-attachments/assets/27dc5328-d6dc-4b5d-96e7-7dd60c90ed9e)
 
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
 * Designed a fully responsive UI and produced all assets (exept for the main logo)
