@@ -40,7 +40,7 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 <br/>
 
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
-![dayna_safferstein_logo_100](https://github.com/user-attachments/assets/242dbf7f-426f-4418-9d95-a2aa5d203d12)
+![dayna_safferstein_logo_100](https://github.com/user-attachments/assets/70f42eeb-cb4a-4cb6-abf6-cffdb7dbd1be)
 
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
