@@ -15,7 +15,7 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 * A gulp file is used to create a Single Page App from "component" html templates
 * Fully responsive custom design
 * 7.5mb total size for the site, with 6.9mb from assets
-  ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
+![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
 
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
 One of the most popular dive bars in Denver, I designed and developed this website while teaching a friend of mine Angular
