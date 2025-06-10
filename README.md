@@ -57,6 +57,13 @@ One of my favorite projects I've done, unfortunately no longer online, this was 
 * I developed the UI, animations, and graphical assets
 * Helped with constructing the backend along with 2 fellow devs
 * Uses Firebase along with local storage to remember users without the need for an account
+
+**Participant Voting Animation**
+![Pointing-Poker_Participant-Demo](https://github.com/user-attachments/assets/623ea3ef-aab9-4bca-9a57-1b4ad3bbf879)
+
+**Organizer Voting and Reveal Animation**
+![Pointing-Poker_Organizer-Demo](https://github.com/user-attachments/assets/81fb4871-e88c-41d6-8ef6-3157410651d6)
+
 ### Sign In
 ![Pointing-Poker_Sign-In2](https://github.com/user-attachments/assets/770fde69-263c-4fb6-8d81-03879fe4d58c)
 
@@ -70,16 +77,10 @@ One of my favorite projects I've done, unfortunately no longer online, this was 
 **All Votes Ready**
 ![Pointing-Poker_Participant_Vote-Ready](https://github.com/user-attachments/assets/e273ea6d-087b-43c1-9667-28d208d09428)
 
-**Voting Animation**
-![Pointing-Poker_Participant-Demo](https://github.com/user-attachments/assets/623ea3ef-aab9-4bca-9a57-1b4ad3bbf879)
-
 ### Organizer View
 **Before Voting**
 ![Pointing-Poker_0rganizer_Pre-Vote](https://github.com/user-attachments/assets/cebd3b2d-08f8-4262-a7c9-213b9b854002)
 
 **Vote Results**
 ![Pointing-Poker_Organizer_Results](https://github.com/user-attachments/assets/c09532cc-727e-49d7-8fa9-582357547bfb)
-
-**Voting and Reveal Animation**
-![Pointing-Poker_Organizer-Demo](https://github.com/user-attachments/assets/81fb4871-e88c-41d6-8ef6-3157410651d6)
 
