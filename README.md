@@ -16,7 +16,7 @@ My resume and portfolio created as an Angular 17 website
 <br/>
 
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
-![sbs_co_logo_100](https://github.com/user-attachments/assets/7a1906db-947c-4914-933f-8842d4949b4f)
+![sbs_co_logo_100](https://github.com/user-attachments/assets/168fee36-04c4-4c3c-8034-285ba961bd0d)
 
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
@@ -41,7 +41,6 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
 ![dayna_safferstein_logo_100](https://github.com/user-attachments/assets/242dbf7f-426f-4418-9d95-a2aa5d203d12)
-
 
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
