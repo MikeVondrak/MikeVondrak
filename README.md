@@ -7,9 +7,10 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 
 # Repositories
 
-![mv_logo_curve](https://github.com/user-attachments/assets/e5984a68-7619-4a27-ae0a-827e31c6ff0b)
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
-My resume and portfolio created as an Angular 17 website
+| | |
+|:-|-:|
+|My resume and portfolio created as an Angular 17 website|![mv_logo_curve](https://github.com/user-attachments/assets/e5984a68-7619-4a27-ae0a-827e31c6ff0b)|
 
 
 
