@@ -58,7 +58,7 @@ One of my favorite projects I've done, unfortunately no longer online, this was 
 * Uses Firebase along with local storage to remember users without the need for an account
 
 **Participant Voting Animation**
-
+* 
 ![Pointing-Poker_Participant-Demo](https://github.com/user-attachments/assets/623ea3ef-aab9-4bca-9a57-1b4ad3bbf879)
 
 **Organizer Voting and Reveal Animation**
