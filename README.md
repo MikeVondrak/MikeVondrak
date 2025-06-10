@@ -1,5 +1,5 @@
 
-<div style="width: 100%; display: flex; justify-content: space-between">
+<div style="display: flex; justify-content: space-between">
   <span># About Me</span>
   <span>![mv_logo_icon](https://github.com/user-attachments/assets/5bd20a8f-beda-4c43-a7c0-7da279a52704)</span>
 </div>
