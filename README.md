@@ -11,6 +11,7 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
 My resume and portfolio created as an Angular 17 website
 
+
 ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
 
@@ -22,6 +23,7 @@ The client for this site runs a SalesForce consulting company, and wanted a ligh
 
 ![image](https://github.com/user-attachments/assets/8cc25695-7ec9-431c-8adb-7ee3bf374068)
 
+
 ![image](https://github.com/user-attachments/assets/27dc5328-d6dc-4b5d-96e7-7dd60c90ed9e)
 ## [diveinndenver.com](https://github.com/MikeVondrak/dive-inn-workspace)
 
@@ -31,12 +33,14 @@ One of the most popular dive bars in Denver, I designed and developed this websi
 * Node backend with a custom emailer to support reservations
 * Populates data for events and specials from an Amazon S3 bucket
 
+
 ![image](https://github.com/user-attachments/assets/b4efeeb4-cfd8-43b8-897a-f5eccab9341c)
 ## [daynasafferstrein.com](https://daynasafferstrein.com)
 
 A Squarespace portfolio site for a client in graphic design
 * Built the animated grid for the homepage and integrated it into Squarespace
 * Created a JavaScript based system that can configure the site to display tailored versions of the content to target different job types
+
 
 ![image](https://github.com/user-attachments/assets/dbaa20a3-4caa-47d2-9cc0-70bdfbad6cf4)
 ## pointingpokeronline.com (site decommissioned)
@@ -69,6 +73,6 @@ One of my favorite projects I've done, unfortunately no longer online, this was 
 **Vote Results**
 ![Pointing-Poker_Organizer_Results](https://github.com/user-attachments/assets/c09532cc-727e-49d7-8fa9-582357547bfb)
 
-**Vote Reveal Animation**
+**Voting and Reveal Animation**
 ![Pointing-Poker_Organizer-Demo](https://github.com/user-attachments/assets/81fb4871-e88c-41d6-8ef6-3157410651d6)
 
