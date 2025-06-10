@@ -9,8 +9,8 @@ Re: A naturally curious, quality-oriented, detailed and dynamic developer of ide
 ## [mikevondrak.com](https://github.com/MikeVondrak/mike-vondrak)
 My resume and portfolio created as an Angular 17 website
 
-## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware)
-![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a)
+|:-----------|---------:|
+| ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) | ![image](https://github.com/user-attachments/assets/b900e52c-e330-47f1-831c-6266a2f0d37a) |
 
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
