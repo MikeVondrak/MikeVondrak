@@ -16,7 +16,7 @@ My resume and portfolio created as an Angular 17 website
 <br/>
 
 ## [solvedbysoftwareco.com](https://github.com/MikeVondrak/SolvedBySoftware) 
-![sbs_co_logo_100](https://github.com/user-attachments/assets/168fee36-04c4-4c3c-8034-285ba961bd0d)
+![sbs_co_logo_100](https://github.com/user-attachments/assets/5335376f-e5af-4634-802b-aaf31f3df2fc)
 
 The client for this site runs a SalesForce consulting company, and wanted a lightweight website **NOT** based on any frameworks like Angular or React
 * Utilizes HTML templates and data attributes to achieve componentization
